@@ -26,4 +26,12 @@ Route::get('/', function () {
         'string' => 'Hello World', //$string
     ];
     return view('homepage', $data);
-});
+})->name('home');;
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/contacts', function () {
+    return view('contacts');
+})->name('contacts');

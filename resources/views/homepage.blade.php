@@ -10,6 +10,10 @@
 
     <body>
         <h1> {{ $string }}</h1>
+        <div>
+            <a href="{{ route('about') }}">About</a>
+            <a href="{{ route('contacts') }}">Contacts</a>
+        </div>
     </body>
 
 </html>
