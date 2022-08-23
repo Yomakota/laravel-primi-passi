@@ -10,6 +10,13 @@
 
     <body>
         <h1> {{ $string }}</h1>
+        <h2>
+            @foreach ($details as $element)
+            {{ $element }}
+            @if(!$loop->last)-
+            @endif
+            @endforeach
+        </h2>
         <div>
             <a href="{{ route('about') }}">About</a>
             <a href="{{ route('contacts') }}">Contacts</a>

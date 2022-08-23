@@ -24,6 +24,7 @@ Route::get('/', function () {
 
     $data = [
         'string' => 'Hello World', //$string
+        'details' => ['Laravel', 'Boolean', 'Class#66']
     ];
     return view('homepage', $data);
 })->name('home');;

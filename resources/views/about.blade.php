@@ -9,7 +9,7 @@
     </head>
 
     <body>
-        <h1>about us</h1>
+        <h1>About us</h1>
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laboriosam optio consequatur nemo quod
             ratione autem ducimus officia fugit excepturi suscipit! Ut, fugiat ipsa ipsum delectus doloribus est quia
