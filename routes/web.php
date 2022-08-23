@@ -18,5 +18,12 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', function () {
-    return view('homepage');
+
+    // altro metodo
+    // $string = 'Hello World';
+
+    $data = [
+        'string' => 'Hello World', //$string
+    ];
+    return view('homepage', $data);
 });
